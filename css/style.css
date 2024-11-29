@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body main{
+    font-family: sans-serif;
+    background-image:url(../img/overlay-bg.jpg) ;
+    background-size: cover;
+    min-height: 100vh;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+button{
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+}
+button:hover{
+    background-color: #33333376;
+    color: #fff;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}   
